@@ -12,6 +12,7 @@ function App() {
         <Route path="/" element={<Navigate to="/activos" />} />
         <Route path="/activos" element={<Activos />} />
         <Route path="/formsactivos" element={<FormsActivos />} />
+        <Route path="/forms/:id" element={<FormsActivos />} />
       </Routes>
        </BrowserRouter>
   );
