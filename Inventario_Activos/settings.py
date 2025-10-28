@@ -126,7 +126,7 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 #AUTORIZACION PARA CONECTAR CON FRONTED
-CORS_ALLOWED_ORIGINS = []
+CORS_ALLOWED_ORIGINS = ["http://127.0.0.1:5173", "http://localhost:5173"]
 
 # Trusted origins for CSRF checks. Include scheme + host[:port].
 # Add any local development origins you need, for example when using
